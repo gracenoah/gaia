@@ -3,13 +3,13 @@ package app
 import (
 	"fmt"
 
-	"github.com/tendermint/tendermint/crypto/secp256k1"
+	"github.com/gracenoah/tendermint/crypto/secp256k1"
 
-	"github.com/cosmos/gaia/app"
+	"github.com/gracenoah/gaia/app"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth"
-	"github.com/cosmos/cosmos-sdk/x/bank"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
+	"github.com/gracenoah/cosmos-sdk/x/auth"
+	"github.com/gracenoah/cosmos-sdk/x/bank"
 )
 
 // This will fail half the time with the second output being 173

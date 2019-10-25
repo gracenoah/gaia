@@ -10,19 +10,19 @@ import (
 	cpm "github.com/otiai10/copy"
 	"github.com/spf13/cobra"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	cmn "github.com/tendermint/tendermint/libs/common"
-	"github.com/tendermint/tendermint/proxy"
-	tmsm "github.com/tendermint/tendermint/state"
-	tmstore "github.com/tendermint/tendermint/store"
-	tm "github.com/tendermint/tendermint/types"
+	abci "github.com/gracenoah/tendermint/abci/types"
+	cmn "github.com/gracenoah/tendermint/libs/common"
+	"github.com/gracenoah/tendermint/proxy"
+	tmsm "github.com/gracenoah/tendermint/state"
+	tmstore "github.com/gracenoah/tendermint/store"
+	tm "github.com/gracenoah/tendermint/types"
 
-	"github.com/cosmos/gaia/app"
+	"github.com/gracenoah/gaia/app"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/server"
-	"github.com/cosmos/cosmos-sdk/store"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/gracenoah/cosmos-sdk/baseapp"
+	"github.com/gracenoah/cosmos-sdk/server"
+	"github.com/gracenoah/cosmos-sdk/store"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
 )
 
 func replayCmd() *cobra.Command {

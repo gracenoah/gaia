@@ -5,25 +5,25 @@ import (
 	"os"
 	"path"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/keys"
-	"github.com/cosmos/cosmos-sdk/client/lcd"
-	"github.com/cosmos/cosmos-sdk/client/rpc"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/version"
-	"github.com/cosmos/cosmos-sdk/x/auth"
-	authcmd "github.com/cosmos/cosmos-sdk/x/auth/client/cli"
-	authrest "github.com/cosmos/cosmos-sdk/x/auth/client/rest"
-	"github.com/cosmos/cosmos-sdk/x/bank"
-	bankcmd "github.com/cosmos/cosmos-sdk/x/bank/client/cli"
+	"github.com/gracenoah/cosmos-sdk/client"
+	"github.com/gracenoah/cosmos-sdk/client/keys"
+	"github.com/gracenoah/cosmos-sdk/client/lcd"
+	"github.com/gracenoah/cosmos-sdk/client/rpc"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
+	"github.com/gracenoah/cosmos-sdk/version"
+	"github.com/gracenoah/cosmos-sdk/x/auth"
+	authcmd "github.com/gracenoah/cosmos-sdk/x/auth/client/cli"
+	authrest "github.com/gracenoah/cosmos-sdk/x/auth/client/rest"
+	"github.com/gracenoah/cosmos-sdk/x/bank"
+	bankcmd "github.com/gracenoah/cosmos-sdk/x/bank/client/cli"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
 	"github.com/tendermint/go-amino"
-	"github.com/tendermint/tendermint/libs/cli"
+	"github.com/gracenoah/tendermint/libs/cli"
 
-	"github.com/cosmos/gaia/app"
+	"github.com/gracenoah/gaia/app"
 )
 
 func main() {

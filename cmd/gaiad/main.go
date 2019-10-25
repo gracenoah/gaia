@@ -7,23 +7,23 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/libs/cli"
-	"github.com/tendermint/tendermint/libs/log"
-	tmtypes "github.com/tendermint/tendermint/types"
+	abci "github.com/gracenoah/tendermint/abci/types"
+	"github.com/gracenoah/tendermint/libs/cli"
+	"github.com/gracenoah/tendermint/libs/log"
+	tmtypes "github.com/gracenoah/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/gaia/app"
+	"github.com/gracenoah/gaia/app"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/server"
-	"github.com/cosmos/cosmos-sdk/store"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/genaccounts"
-	genaccscli "github.com/cosmos/cosmos-sdk/x/genaccounts/client/cli"
-	genutilcli "github.com/cosmos/cosmos-sdk/x/genutil/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/staking"
+	"github.com/gracenoah/cosmos-sdk/baseapp"
+	"github.com/gracenoah/cosmos-sdk/client"
+	"github.com/gracenoah/cosmos-sdk/server"
+	"github.com/gracenoah/cosmos-sdk/store"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
+	"github.com/gracenoah/cosmos-sdk/x/genaccounts"
+	genaccscli "github.com/gracenoah/cosmos-sdk/x/genaccounts/client/cli"
+	genutilcli "github.com/gracenoah/cosmos-sdk/x/genutil/client/cli"
+	"github.com/gracenoah/cosmos-sdk/x/staking"
 )
 
 // gaiad custom flags

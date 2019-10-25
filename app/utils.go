@@ -4,12 +4,12 @@ package app
 import (
 	"io"
 
-	"github.com/tendermint/tendermint/libs/log"
+	"github.com/gracenoah/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/staking"
+	"github.com/gracenoah/cosmos-sdk/baseapp"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
+	"github.com/gracenoah/cosmos-sdk/x/staking"
 )
 
 var (

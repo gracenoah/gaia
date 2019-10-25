@@ -12,24 +12,24 @@ import (
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	tmconfig "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/crypto"
-	cmn "github.com/tendermint/tendermint/libs/common"
-	"github.com/tendermint/tendermint/types"
-	tmtime "github.com/tendermint/tendermint/types/time"
+	tmconfig "github.com/gracenoah/tendermint/config"
+	"github.com/gracenoah/tendermint/crypto"
+	cmn "github.com/gracenoah/tendermint/libs/common"
+	"github.com/gracenoah/tendermint/types"
+	tmtime "github.com/gracenoah/tendermint/types/time"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/keys"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/server"
-	srvconfig "github.com/cosmos/cosmos-sdk/server/config"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/cosmos/cosmos-sdk/x/auth"
-	"github.com/cosmos/cosmos-sdk/x/genaccounts"
-	"github.com/cosmos/cosmos-sdk/x/genutil"
-	genutiltypes "github.com/cosmos/cosmos-sdk/x/genutil/types"
-	"github.com/cosmos/cosmos-sdk/x/staking"
+	"github.com/gracenoah/cosmos-sdk/client"
+	"github.com/gracenoah/cosmos-sdk/client/keys"
+	"github.com/gracenoah/cosmos-sdk/codec"
+	"github.com/gracenoah/cosmos-sdk/server"
+	srvconfig "github.com/gracenoah/cosmos-sdk/server/config"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
+	"github.com/gracenoah/cosmos-sdk/types/module"
+	"github.com/gracenoah/cosmos-sdk/x/auth"
+	"github.com/gracenoah/cosmos-sdk/x/genaccounts"
+	"github.com/gracenoah/cosmos-sdk/x/genutil"
+	genutiltypes "github.com/gracenoah/cosmos-sdk/x/genutil/types"
+	"github.com/gracenoah/cosmos-sdk/x/staking"
 )
 
 var (
@@ -236,7 +236,7 @@ func InitTestnet(cmd *cobra.Command, config *tmconfig.Config, cdc *codec.Codec,
 		}
 
 		// TODO: Rename config file to server.toml as it's not particular to Gaia
-		// (REF: https://github.com/cosmos/cosmos-sdk/issues/4125).
+		// (REF: https://github.com/gracenoah/cosmos-sdk/issues/4125).
 		gaiaConfigFilePath := filepath.Join(nodeDir, "config/gaiad.toml")
 		srvconfig.WriteConfigFile(gaiaConfigFilePath, gaiaConfig)
 	}

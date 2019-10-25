@@ -10,26 +10,26 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/client"
+	"github.com/gracenoah/cosmos-sdk/client"
 
 	"github.com/stretchr/testify/require"
 
-	tmtypes "github.com/tendermint/tendermint/types"
+	tmtypes "github.com/gracenoah/tendermint/types"
 
-	"github.com/cosmos/gaia/app"
+	"github.com/gracenoah/gaia/app"
 
-	clientkeys "github.com/cosmos/cosmos-sdk/client/keys"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/crypto/keys"
-	"github.com/cosmos/cosmos-sdk/server"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/tests"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth"
-	"github.com/cosmos/cosmos-sdk/x/distribution"
-	"github.com/cosmos/cosmos-sdk/x/gov"
-	"github.com/cosmos/cosmos-sdk/x/slashing"
-	"github.com/cosmos/cosmos-sdk/x/staking"
+	clientkeys "github.com/gracenoah/cosmos-sdk/client/keys"
+	"github.com/gracenoah/cosmos-sdk/codec"
+	"github.com/gracenoah/cosmos-sdk/crypto/keys"
+	"github.com/gracenoah/cosmos-sdk/server"
+	"github.com/gracenoah/cosmos-sdk/simapp"
+	"github.com/gracenoah/cosmos-sdk/tests"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
+	"github.com/gracenoah/cosmos-sdk/x/auth"
+	"github.com/gracenoah/cosmos-sdk/x/distribution"
+	"github.com/gracenoah/cosmos-sdk/x/gov"
+	"github.com/gracenoah/cosmos-sdk/x/slashing"
+	"github.com/gracenoah/cosmos-sdk/x/staking"
 )
 
 const (

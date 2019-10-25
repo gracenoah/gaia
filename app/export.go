@@ -4,13 +4,13 @@ import (
 	"encoding/json"
 	"log"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	tmtypes "github.com/tendermint/tendermint/types"
+	abci "github.com/gracenoah/tendermint/abci/types"
+	tmtypes "github.com/gracenoah/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/slashing"
-	"github.com/cosmos/cosmos-sdk/x/staking"
+	"github.com/gracenoah/cosmos-sdk/codec"
+	sdk "github.com/gracenoah/cosmos-sdk/types"
+	"github.com/gracenoah/cosmos-sdk/x/slashing"
+	"github.com/gracenoah/cosmos-sdk/x/staking"
 )
 
 // export the state of gaia for a genesis file
