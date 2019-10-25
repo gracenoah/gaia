@@ -7,8 +7,8 @@ require (
 	github.com/cosmos/go-bip39 v0.0.0-20180819234021-555e2067c45d // indirect
 	github.com/golang/mock v1.3.1 // indirect
 	github.com/gorilla/mux v1.7.3 // indirect
-	github.com/gracenoah/cosmos-sdk v0.36.0-renamed2
-	github.com/gracenoah/tendermint v0.32.6-renamed
+	github.com/gracenoah/cosmos-sdk v0.36.0-renamed3
+	github.com/gracenoah/tendermint v0.32.6-renamed2
 	github.com/mattn/go-isatty v0.0.8 // indirect
 	github.com/onsi/ginkgo v1.8.0 // indirect
 	github.com/onsi/gomega v1.5.0 // indirect
